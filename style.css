@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  min-height: 100vh;         /* ocupa a tela toda */
+  display: flex;
+  flex-direction: column;     /* empilha header, main e footer */
+}
+
+main {
+    flex: 1;
+}
+
+/*Cabeçalho e Rodapé*/
+
+header, footer{
+    background-color: #2e4e7d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/*Cabeçalho e Rodapé*/
+
+/*Seções do site*/
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#inicio {
+  background-color: #b9f1d6;
+}
+
+#contato {
+  background-color: #f1f6ce;
+}
+
+/*Seções do site*/
